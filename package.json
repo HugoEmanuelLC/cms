@@ -1,0 +1,21 @@
+{
+  "name": "model_04_2022",
+  "version": "1.0.0",
+  "description": "model creer en 2022",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sassDashboard": "sass --watch ./public/styles/dashboard/main.scss:./public/styles/dashboard/css/style.css --style compressed",
+    "sassSiteWeb": "sass --watch ./public/styles/siteweb/main.scss:./public/styles/siteweb/css/style.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HugoEmanuelLC/dev.git"
+  },
+  "author": "hugo lopes clavinas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HugoEmanuelLC/dev/issues"
+  },
+  "homepage": "https://github.com/HugoEmanuelLC/dev#readme"
+}

@@ -1,0 +1,47 @@
+.navbar{
+    position: relative;
+    border-radius: 0 20px 20px 0;
+    overflow: hidden;
+}
+.navbar ul li{
+    display: flex;
+}
+.navbar ul li a{
+    height: 100%;
+    width: 100%;
+    color: white;
+    padding: 5px 10px;
+}
+.navbar ul li a:hover{
+    background-color: rgb(15, 46, 72, 0.8);
+}
+.navbar ul li .active{
+    background-color: rgb(15, 46, 72, 0.8);
+}
+.navbar .linkLogout{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+        bottom: 0;
+}
+@media screen and (max-width: 720px) {
+    .navbar{
+        border-radius: 0 0 10px 10px;
+    }
+    .navbar{
+        ul{
+            display: flex;
+        }
+        li{
+            width: 100%;
+        }
+        .linkLogout{
+            // width: 25px;
+            // height: 100%;
+            text-align: center;
+            position: relative;
+                // right: 0;
+                // bottom: 0;
+        }
+    }
+}
