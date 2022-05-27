@@ -24,27 +24,27 @@ $descriptitle = 'Accueil';
 <div class="contenue">
     <div class="demos">
         <div class="demo">
-            <i class="far fa-plus-circle"></i>
+            <a href=""><i class="far fa-plus-circle"></i></a>
         </div>
 
         <div class="demo">
-            <i class="far fa-plus-circle"></i>
+            <a href=""><i class="far fa-plus-circle"></i></a>
         </div>
 
         <div class="demo">
-            <i class="far fa-plus-circle"></i>
+            <a href=""><i class="far fa-plus-circle"></i></a>
         </div>
     </div>
-</div>
 
-<div class="infos">
-    <div>
-        <h1>A propos</h1>
+    <div class="infos">
+        <div>
+            <h1>A propos</h1>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam dolorem ab reprehenderit corporis nam? Magnam eum omnis dolorum possimus quae!</p>
-    </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam dolorem ab reprehenderit corporis nam? Magnam eum omnis dolorum possimus quae!</p>
+        </div>
 
-    <div>
+        <div>
+        </div>
     </div>
 </div>
 
