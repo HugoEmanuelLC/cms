@@ -4,12 +4,50 @@ $keywords = 'mots cles, mots cles';
 $description = 'description de la page';
 $descriptitle = 'Accueil';
 
-require('../views/siteWeb/fragments/navbar.php');
+//require('../views/siteWeb/fragments/navbar.php');
 
 ?>
 
-<?php //ob_start(); ?>
+<header>
+    <h1>Hugo L. Clavinas</h1>
+</header>
 
-<h1><?=$descriptitle?></h1>
+<div class="intitule">
+    <ul>
+        <li><h1>Developeur</h1></li>
+        <li><h2>web apps</h2></li>
+        <li><h3>junior</h3></li>
+        <li><button>C.V.</button></li>
+    </ul>
+</div>
 
-<?php //$content = ob_get_clean(); ?>
+<div class="contenue">
+    <div class="demos">
+        <div class="demo">
+            <i class="far fa-plus-circle"></i>
+        </div>
+
+        <div class="demo">
+            <i class="far fa-plus-circle"></i>
+        </div>
+
+        <div class="demo">
+            <i class="far fa-plus-circle"></i>
+        </div>
+    </div>
+</div>
+
+<div class="infos">
+    <div>
+        <h1>A propos</h1>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam dolorem ab reprehenderit corporis nam? Magnam eum omnis dolorum possimus quae!</p>
+    </div>
+
+    <div>
+    </div>
+</div>
+
+<footer>
+    
+</footer>

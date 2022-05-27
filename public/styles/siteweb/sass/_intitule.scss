@@ -1,0 +1,41 @@
+.intitule{
+    background-color: palevioletred;
+    height: 90vh;
+    // display: flex;
+    // align-items: center;
+    position: sticky;
+    top: 0;
+
+    h1{
+        font-size: 4rem;
+    }
+    h2{
+        font-size: 3.5rem;
+    }
+    h3{
+        font-size: 3rem;
+    }
+}
+
+.intitule ul{
+    background-color: aqua;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+
+.intitule li:last-child{
+    background-color: red;
+    
+    button{
+        width: 100%;
+        font-size: 2rem;
+        margin-top: 20px;
+        background-color: black;
+        color: white;
+    }
+    button:hover{
+        color: black;
+        background-color: transparent;
+    }
+}

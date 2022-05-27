@@ -15,8 +15,8 @@ $ICON = IMAGES . 'images' . DIRECTORY_SEPARATOR . 'Loading_icon.gif' ;
     <meta name="author" content="Hugo Clavinas">
 <!---->
     <link rel="icon" type="image/png" href="<?= $ICON; ?>" />
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css">
-    <!--<link rel="stylesheet" href="<?= $back = (isset($back)) ? $back : false ?>public/styles/siteWeb/css/style.css">-->
+    <!--<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css">
+    <link rel="stylesheet" href="<?= $back = (isset($back)) ? $back : false ?>public/styles/siteWeb/css/style.css">-->
     <!--<link rel="stylesheet" href="<?= $back = (isset($back)) ? $back : false ?>public/styles/panel/css/style.css">-->
 
     <link rel="stylesheet" href="<?= SCRIPTS . 'styles/siteWeb/css' . DIRECTORY_SEPARATOR . 'style.css' ?>">
