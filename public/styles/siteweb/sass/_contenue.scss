@@ -1,5 +1,9 @@
+// :root{
+    
+// }
+
 .contenue{
-    background-color: green;
+    background-color: black;
     position: relative;
 }
 .contenue i{
@@ -14,18 +18,24 @@
         gap: 0px;
 }
 .demos .demo{
-    background-color: blueviolet;
+    background-image: url('');
+    background-repeat: no-repeat;    
+    background-position: 60%;
+    background-size: cover;
     display: flex;
         justify-content: center;
         align-items: flex-end;
     position: relative;
 }
-.demos .demo a{
-    background-color: black;
+.demos .demo i{
+    background-color: rgb(255, 255, 255, 0.8);
+    color: black;
     position: absolute;
         bottom: 50px;
     padding: 10px;
-    border-radius: 50%;
+}
+.demos .demo i:hover{
+    background-color: rgb(255, 255, 255);
 }
 
 .infos{
