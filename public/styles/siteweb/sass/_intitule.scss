@@ -7,10 +7,8 @@
     // display: flex;
     // align-items: center;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 0px;
-    position: sticky;
-        top: 0;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        gap: 0px;
 
     h1,h2,h3{
         color: white;
@@ -54,15 +52,35 @@
 }
 
 .intitule .photoProfil{
-    background-image: url('https://scontent.fcrl2-1.fna.fbcdn.net/v/t39.30808-6/278434351_731589691555079_3608081800614382370_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=YDMKyGHIyhoAX_lw70a&_nc_ht=scontent.fcrl2-1.fna&oh=00_AT8EKUmcp4sWj9fwjQKuri97ZZjJuwwL-I9sUjtcmFXIyA&oe=629A69DB');
-    background-repeat: no-repeat;    
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
+    box-shadow: 0 40px 40px rgb(0, 0, 0, 0.8);
 }
-
-.intitule .photoProfil .shadow{
-    height: 100%;
+.intro{
+    margin: 100px auto;
+    // background-color: rgb(255, 255, 255,0.5);
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // background-size: cover;
+    // background-attachment: fixed;
+    // min-height: 50vh;
     width: 100%;
 }
+
+// .intitule .photoProfil{
+//     background-image: url('https://scontent.fcrl2-1.fna.fbcdn.net/v/t39.30808-6/278434351_731589691555079_3608081800614382370_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=YDMKyGHIyhoAX_lw70a&_nc_ht=scontent.fcrl2-1.fna&oh=00_AT8EKUmcp4sWj9fwjQKuri97ZZjJuwwL-I9sUjtcmFXIyA&oe=629A69DB');
+//     background-repeat: no-repeat;    
+//     background-position: center;
+// }
+
+// .intitule .photoProfil .shadow{
+//     height: 100%;
+//     width: 100%;
+// }
 @media (max-width: 600px) {
     .intitule .text ul{
         left: 10%;

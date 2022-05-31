@@ -1,15 +1,18 @@
 header{
     padding: 40px 0;
     display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     position: sticky;
         top: 0;
+    color: white;
 }
-header h1{
-    padding: 10px 20px;
-    margin: auto;
-    font-size: 3rem;
-    background-color: red;
-    border: solid 3px white;
-    color: black;
-    text-shadow: 3px 0 0 #fff, -3px 0 0 #fff, 0 1.5px 0 #fff, 0 -1.5px 0 #fff;
-}
+// header h1{
+//     // padding: 10px 20px;
+//     font-size: 3rem;
+// }
+
+// header h1 , p{
+//     background-color: greenyellow;
+// }

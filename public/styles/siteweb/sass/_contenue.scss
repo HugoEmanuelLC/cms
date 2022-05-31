@@ -1,55 +1,5 @@
-// :root{
-    
-// }
-
 .contenue{
-    background-color: black;
+    min-height: 150vh;
+    background-color: red;
     position: relative;
-}
-.contenue i{
-    font-size: 30px;
-    color: white;
-}
-
-.demos{
-    height: 90vh;
-    display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 0px;
-}
-.demos .demo{
-    background-image: url('');
-    background-repeat: no-repeat;    
-    background-position: 60%;
-    background-size: cover;
-    display: flex;
-        justify-content: center;
-        align-items: flex-end;
-    position: relative;
-}
-.demos .demo i{
-    background-color: rgb(255, 255, 255, 0.8);
-    color: black;
-    position: absolute;
-        bottom: 50px;
-    padding: 10px;
-}
-.demos .demo i:hover{
-    background-color: rgb(255, 255, 255);
-}
-
-.infos{
-    background-color: white;
-    height: 80vh;
-    display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-        gap: 20px;
-}
-.infos div{
-    border: 2px solid red;
-    display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    padding: 20px;
 }
