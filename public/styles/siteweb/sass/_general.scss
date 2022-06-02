@@ -28,6 +28,23 @@ a{
     background-color: black;
 }
 
+.contenue{
+    min-height: 150vh;
+    background-color: red;
+    position: relative;
+}
+
+.titre_Portfolio{
+    position: sticky;
+        top: 0;
+    background-color: black;
+    margin: 0 0;
+    padding: 40px 0;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
 // .titres{
 //     text-align: center;
 //     padding: 50px 0;

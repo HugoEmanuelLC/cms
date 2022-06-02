@@ -3,6 +3,9 @@
 $keywords = 'mots cles, mots cles';
 $description = 'description de la page';
 $descriptitle = 'Developeur web apps junior';
+$descriptitleH1 = 'Developeur';
+$descriptitleH2 = 'web apps';
+$descriptitleH3 = 'junior';
 
 //require('../views/siteWeb/fragments/navbar.php');
 
@@ -26,8 +29,24 @@ $nodejs = 50;
 
     <div class="haut_de_page">
         <div class="intitule">
-            <h1><?=$descriptitle?></h1>
-            <div class="photoProfil" style="background-image: url('./public/images/imgs/FB_IMG_1651314627224.jpg');"></div>
+            <div class="text">
+                <ul>
+                    <li><h1><?=$descriptitleH1?></h1></li>
+                    <li><h2><?=$descriptitleH2?></h2></li>
+                    <li><h3><?=$descriptitleH3?></h3></li>
+                    <li>
+                        <a href="http://" target="_blank" >
+                            C.V. &nbsp; 
+                            <i class="fa-solid fa-file-pdf"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="photoProfil" style="background-image: url('https://scontent.fcrl2-1.fna.fbcdn.net/v/t39.30808-6/284031159_758112235569491_5220433864634129557_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=xa0fRZ-B29AAX-bfxUR&_nc_ht=scontent.fcrl2-1.fna&oh=00_AT-zurvSCYw4lu7NaAMxgpxHJM1OuCkGhAsA-kHlNEnrGQ&oe=629D083E');">
+            </div>
+
+            
         </div>
 
         <div class="intro" style="background-image: url('');">
@@ -41,27 +60,36 @@ $nodejs = 50;
 
     
 
-    <h1 class="titre_Portfolio">Portfolio :</h1>
+    <h1 class="titre_Portfolio">Démos :</h1>
 
     <div class="galleryIMG">
+
         <div style="background-image: url('./public/images/imgs/Sans titre.png');">
-            <a href="exemples/WAWMOMO-v3/" target="_blank">Site Vitrine</a></div>
+            <a href="exemples/WAWMOMO-v3/" target="_blank">Site Vitrine</a>
+        </div>
+
         <div style="background-image: url('https://images.all-free-download.com/images/graphiclarge/hexagon_3d_background_6813383.jpg');">
-            <a href="http:\\google.be">Site streaming</a></div>
+            <a href="http:\\google.be">Site streaming</a>
+        </div>
+
         <div style="background-image: url('https://images.unsplash.com/photo-1604964432806-254d07c11f32?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZGV2ZWxvcGVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80');">
-            <a href="http:\\google.be">E-comerce</a></div>
+            <a href="http:\\google.be">E-comerce</a>
+        </div>
+
         <div style="background-image: url('https://images.all-free-download.com/images/graphiclarge/hexagon_3d_background_6813383.jpg');">
-            <a href="http:\\google.be">Gestion users</a></div>
-        <!-- <div style="background-image: url('https://images.unsplash.com/photo-1604964432806-254d07c11f32?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZGV2ZWxvcGVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80');">
-            <a href="http:\\google.be"></a></div> -->
+            <a href="http:\\google.be">Gestion users</a>
+        </div>
+
     </div>
 
     <h1 class="titre_Portfolio">Connaissances :</h1>
 
     <div class="connaissances">
 
-        <a id="pdf" class="link_pdf" href="http://" target="_blank" >
-            C.V. &nbsp; <i class="fa-solid fa-file-pdf"></i></a>
+        <a class="link_pdf" href="http://" target="_blank" >
+            C.V. &nbsp; 
+            <i class="fa-solid fa-file-pdf"></i>
+        </a>
 
         <ul>
             <li style="width: <?=$html?>%;"><p>Html5</p> <p><?=$html?>%</p></li>
@@ -73,18 +101,15 @@ $nodejs = 50;
         </ul>
     </div>
 
-    <div class="infos">
-        <div>
-            <h1>A propos</h1>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam dolorem ab reprehenderit corporis nam? Magnam eum omnis dolorum possimus quae!</p>
-        </div>
-
-        <div>
-        </div>
-    </div>
 </div>
 
 <footer>
-    
+    <ul>
+        <li><a href="https://www.linkedin.com/in/hugo-lopes-clavinas-795aaa97/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="https://my.indeed.com/resume?hl=fr&co=BE&from=gnav-menu-homepage&_ga=2.237077186.350364294.1651407770-815407004.1649620839" target="_blank"><img src="./public/images/siteWeb/icons/icon_indeeed.png" alt="" height="20px"></a></li>
+    </ul>
+
+    <ul class="copyright">
+        <li><i class="far fa-copyright"></i>&nbsp; 2022 Hugo Clavinas</li>
+    </ul>
 </footer>
