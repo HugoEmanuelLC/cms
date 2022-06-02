@@ -2,7 +2,7 @@
 
 $keywords = 'mots cles, mots cles';
 $description = 'description de la page';
-$descriptitle = 'Developeur web apps junior';
+$descriptitle = 'Hugo Clavinas, Developeur web apps junior';
 $descriptitleH1 = 'Developeur';
 $descriptitleH2 = 'web apps';
 $descriptitleH3 = 'junior';
@@ -43,7 +43,7 @@ $nodejs = 50;
                 </ul>
             </div>
 
-            <div class="photoProfil" style="background-image: url('https://scontent.fcrl2-1.fna.fbcdn.net/v/t39.30808-6/284031159_758112235569491_5220433864634129557_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=xa0fRZ-B29AAX-bfxUR&_nc_ht=scontent.fcrl2-1.fna&oh=00_AT-zurvSCYw4lu7NaAMxgpxHJM1OuCkGhAsA-kHlNEnrGQ&oe=629D083E');">
+            <div class="photoProfil" style="background-image: url('public/images/siteWeb/IMG_20220208_120124479_3.jpg');">
             </div>
 
             

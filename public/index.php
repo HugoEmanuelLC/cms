@@ -9,7 +9,7 @@ define('SCRIPTS', dirname($_SERVER['SCRIPT_NAME']) . DIRECTORY_SEPARATOR);
 
 //test à modifier au niveau de __DIR__ à la place de 'SCRIPT_NAME' pour les images :
 define('IMAGES', dirname($_SERVER['SCRIPT_NAME']) . DIRECTORY_SEPARATOR);
-// define('IMAGES', dirname(__DIR__) . 'public/images/');
+// define('IMAGES', dirname(__DIR__) . DIRECTORY_SEPARATOR . 'public' . DIRECTORY_SEPARATOR);
 
 $route = new Routes($_GET['url']);
 

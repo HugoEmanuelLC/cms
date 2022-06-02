@@ -1,6 +1,7 @@
 <?php 
 
-$ICON = IMAGES . 'images' . DIRECTORY_SEPARATOR . 'Loading_icon.gif' ;
+$ICON = IMAGES . 'images' . DIRECTORY_SEPARATOR . 'Loading_icon.gif';
+
 ?>
 
 <!DOCTYPE html>
@@ -21,7 +22,7 @@ $ICON = IMAGES . 'images' . DIRECTORY_SEPARATOR . 'Loading_icon.gif' ;
 
     <link rel="stylesheet" href="<?= SCRIPTS . 'styles/siteWeb/css' . DIRECTORY_SEPARATOR . 'style.css' ?>">
 
-    <title>Modele 04 2022 | <?= $descriptitle ?></title>
+    <title>Portfolio 2022 | <?= $descriptitle ?></title>
 </head>
 
 <body>
