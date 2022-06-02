@@ -26,7 +26,7 @@ $ICON = IMAGES . 'images' . DIRECTORY_SEPARATOR . 'Loading_icon.gif';
 </head>
 
 <body>
-<div class="page" style="background-image: url('<?= $ICON; ?>');">
+<div class="page" style="background-image: url('');">
 
     <?=$navbar = (isset($navbar)) ? $navbar : false ?>
 
