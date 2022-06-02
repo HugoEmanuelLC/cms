@@ -6,10 +6,15 @@
     width: 100%;
 }
 
+// .haut_de_page div{
+//     border: solid 3px;
+// }
+
 .intitule{
     height: 90vh;
     display: grid;
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        grid-template-rows: minmax(400px, 1fr);
         gap: 0px;
 
     h1,h2,h3{
@@ -35,6 +40,10 @@
     position: absolute;
         top: 20%;
         left: 20%;
+
+    li{
+        line-height: 1;
+    }
 }
 .intitule .text ul li:last-child{
     margin-top: 20px;
@@ -78,6 +87,10 @@
     padding: 100px 20px;
     max-width: 900px;
     text-shadow: var(--shadowText);
+
+    p{
+        font-size: 17pt;
+    }
 }
 
 

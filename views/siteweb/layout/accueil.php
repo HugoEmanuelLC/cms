@@ -21,8 +21,8 @@ $nodejs = 50;
 <header>
     <h1>Hugo L. Clavinas</h1>
     <p>Agê : 36 ans</p>
-    <p>Mail : hugoclavinas@gmail.com</p>
-    <p>Adresse : Braine-l'Alleud</p>
+    <p><i class="far fa-envelope"></i> : hugoclavinas@gmail.com</p>
+    <p><i class="far fa-address-card"></i> : Braine-l'Alleud</p>
 </header>
 
 <div class="contenue">
