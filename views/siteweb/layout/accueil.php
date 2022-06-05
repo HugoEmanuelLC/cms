@@ -8,8 +8,6 @@ require('../views/siteWeb/fragments/navbar.php');
 
 ?>
 
-<?php //ob_start(); ?>
-
-<h1><?=$descriptitle?></h1>
-
-<?php //$content = ob_get_clean(); ?>
+<div class="contenue">
+    <h1><?=$descriptitle?></h1>
+</div>

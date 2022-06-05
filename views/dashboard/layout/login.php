@@ -23,7 +23,7 @@ require_once('../views/dashboard/services/deconnAuth.php');
 <div class="contenue_page">
     <h1><?=$descriptitle?> </h1>
 
-    <a class="a_retour dash_shadow" href="http://localhost/projets/model-04-2022/"> <i class="fa-solid fa-chevron-left"></i> &nbsp; Retour </a>
+    <a class="a_retour dash_shadow" href="../"> <i class="fa-solid fa-chevron-left"></i> &nbsp; Retour </a>
 
     <h3><?= $msg = (isset($_GET["msg"])) ? $_GET["msg"] : false; ?></h3>
     <h3><?= $msgDeconnecter = (isset($msgDeconnecter)) ? $msgDeconnecter : false; ?></h3>

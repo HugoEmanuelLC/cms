@@ -25,7 +25,7 @@ $ICON = IMAGES . 'images' . DIRECTORY_SEPARATOR . 'Loading_icon.gif' ;
 </head>
 
 <body>
-<div class="page" style="background-image: url('<?= $ICON; ?>');">
+<div class="page" style="background-image: url('https://img.freepik.com/photos-gratuite/texture-marbre-blanc-naturel-pour-fond-luxueux-papier-peint-tuile-peau-pour-travail-art-conception-conception-toile-fond-interieurs-mur-art-ceramique-pierre-marbre-haute-resolution_24076-803.jpg?w=2000');">
 
     <?=$navbar = (isset($navbar)) ? $navbar : false ?>
 
