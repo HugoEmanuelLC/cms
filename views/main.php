@@ -19,7 +19,7 @@ $ICON = IMAGES . 'images' . DIRECTORY_SEPARATOR . 'Loading_icon.gif' ;
     <!--<link rel="stylesheet" href="<?= $back = (isset($back)) ? $back : false ?>public/styles/siteWeb/css/style.css">-->
     <!--<link rel="stylesheet" href="<?= $back = (isset($back)) ? $back : false ?>public/styles/panel/css/style.css">-->
 
-    <link rel="stylesheet" href="<?= SCRIPTS . 'styles/siteWeb/css' . DIRECTORY_SEPARATOR . 'style.css' ?>">
+    <link rel="stylesheet" href="<?= SCRIPTS . 'styles/siteweb/css' . DIRECTORY_SEPARATOR . 'style.css' ?>">
 
     <title>Modele 04 2022 | <?= $descriptitle ?></title>
 </head>
