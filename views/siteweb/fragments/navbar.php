@@ -24,6 +24,5 @@ $navbar = '<div class="navbar">
 <ul>
     <li><a class="'.$accueil0. $accueil1.'" href="'.$back.$URLaccueil.'">ACCUEIL</a></li>
     <li><a class="'.$testid.'" href="'.$back.$URLtestID.'">ID TEST</a></li>
-    <li class="linkLogout"><a class="'.$errorTest.'" href="'.$back.$URLdashboard.'"><i class="fas fa-sign-in-alt"></i></a></li>
 </ul>
 </div>';
