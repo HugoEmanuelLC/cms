@@ -3,8 +3,11 @@
 
 <?php
 
+require_once('httpUrl.php');
+$http = $urlDashboard;
+
 sleep(1);
 
-header('Location:http://localhost/projets/model-04-2022/dashboard/home');
+header('Location:'.$http.'home');
 
 ?>

@@ -1,6 +1,9 @@
 <?php
 session_start();
 
+require_once('httpUrl.php');
+$http = $urlDashboard;
+
 use App\auth\Verif;
 
 $verif = new Verif();
@@ -11,9 +14,9 @@ if (!empty($result)) {
 
     $_SESSION["AUTH"] = "auth";
     
-    header('Location:http://localhost/projets/model-04-2022/dashboard/loading');
+    header('Location:'.$http.'loading');
 
 }else{
 
-    header('Location:http://localhost/projets/model-04-2022/dashboard/?msg=invalide');
+    header('Location:'.$http.'?msg=invalide');
 }
