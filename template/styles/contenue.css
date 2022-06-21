@@ -1,0 +1,12 @@
+.contenue{
+    position: relative;
+    background-color: white;
+    background-image: url('https://iheartcraftythings.com/wp-content/uploads/2021/06/10.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: black;
+    padding-top: 100px;
+    height: 200vh;
+}
