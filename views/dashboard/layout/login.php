@@ -1,7 +1,9 @@
 <?php
 session_start();
 $msg = "";
-$http = "https://localhost/projets/model_default_v1_04-2022/dashboard/auth";
+// require VIEWS . 'dashboard/services/httpUrl.php';
+require_once('../views/dashboard/services/httpUrl.php');
+$http = $urlDashboard ."auth";
 
 //HEAD
 $keywords = 'mots cles, mots cles';
