@@ -1,6 +1,7 @@
 <?php
     
-$http = "http://localhost/projets/model_default_v1_04-2022/dashboard/";
+require_once('httpUrl.php');
+$http = $urlDashboard;
 
 if (!isset($_SESSION["AUTH"])) {
         
