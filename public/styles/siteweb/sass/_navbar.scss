@@ -1,40 +1,37 @@
 .page .navbar{
-    background-image: url('../../../../public/images/siteweb/texture_wood.jpg');
+    background-image: url('../../../../public/images/siteweb/');
     background-repeat: no-repeat;
     background-size: cover;
-    border-bottom: groove 4px gray;
+    position: sticky;
+        top: 0;
 }
 .navbar ul{
     display: flex;
-    padding: 20px 10px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0, 0.5);
 }
 
 .navbar ul li{
     display: flex;
     width: 100%;
-    background-image: url('https://img.besthqwallpapers.com/Uploads/25-4-2019/88776/steel-texture-polished-metal-texture-metallic-gray-background-steel-background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 3px;
 }
 .navbar ul li a{
-    background-image: url('https://images.assetsdelivery.com/compings_v2/prapann/prapann1603/prapann160300128.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
+    text-shadow: 2px 2px 4px;
     height: 100%;
     width: 100%;
-    padding: 5px 10px;
-    color: white;
+    padding: 10px 20px;
+    color: black;
+    border-radius: 20px;
     display: flex;
         justify-content: center;
         align-items: center;
 }
 .navbar ul li a:hover{
-    background-color: #173f5f;
-    background-image: url('../../../../public/images/siteweb/texture_wood.jpg');
+    backdrop-filter: blur(25px);
+    color: white;
 }
 .navbar .active{
-    background-image: url('../../../../public/images/siteweb/texture_wood.jpg');
+    backdrop-filter: blur(25px);
     color: white;
 }
 .navbar .linkLogout{

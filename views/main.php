@@ -14,20 +14,18 @@ $ICON = IMAGES . 'images' . DIRECTORY_SEPARATOR . 'Loading_icon.gif' ;
     <meta name="description" content="Modele de base pour un developpement plus rapide, <?= $description ?>">
     <meta name="author" content="Hugo Clavinas">
 <!---->
-    <link rel="icon" type="image/png" href="<?= $ICON; ?>" />
+    <link rel="icon" type="image/png" href="" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css">
     <!--<link rel="stylesheet" href="<?= $back = (isset($back)) ? $back : false ?>public/styles/siteWeb/css/style.css">-->
     <!--<link rel="stylesheet" href="<?= $back = (isset($back)) ? $back : false ?>public/styles/panel/css/style.css">-->
 
     <link rel="stylesheet" href="<?= SCRIPTS . 'styles/siteweb/css' . DIRECTORY_SEPARATOR . 'style.css' ?>">
 
-    <title>Modele 04 2022 | <?= $descriptitle ?></title>
+    <title>Modele 02 site web | <?= $descriptitle ?></title>
 </head>
 
 <body>
 <div class="page" style="background-image: url('https://img.freepik.com/photos-gratuite/texture-marbre-blanc-naturel-pour-fond-luxueux-papier-peint-tuile-peau-pour-travail-art-conception-conception-toile-fond-interieurs-mur-art-ceramique-pierre-marbre-haute-resolution_24076-803.jpg?w=2000');">
-
-    <?=$navbar = (isset($navbar)) ? $navbar : false ?>
 
     <?= $content = (isset($content)) ? $content : "lien interrompue" ?>
 
